@@ -200,10 +200,12 @@ alias gr='git rebase'
 alias gs='git status'
 alias gt='git tag'
 alias gw='git show'
+alias gca='git commit --amend'
 alias gaa='git commit --amend -a --no-edit'
+alias gcm='git commit -m'
 alias gbd='git branch -D'
 alias gbl='git branch -a'
-alias gcm='git checkout master'
+alias gcom='git checkout master'
 alias gco='git checkout'
 alias gcp='git cherry-pick'
 alias gdf='git difftool'
@@ -213,6 +215,7 @@ alias gpf='git push -f'
 alias gre='git reset --soft HEAD~'
 alias grh='git reset --hard'
 alias gri='git rebase -i'
+alias grih='git rebase -i HEAD~2'
 alias grs='git reset --soft'
 alias gsl='git stash list'
 alias gst='git status'
@@ -230,8 +233,21 @@ alias gplos='git pull origin staging'
 alias gpsom='git push origin master'
 alias gpsod='git push origin develop'
 alias gpsos='git push origin staging'
+alias gpsfo='git push -f origin'
 
 # Editor
 alias r='rubymine .'
 alias w='webstorm .'
+
+# History
+alias hg='history grep |'
+
+# ls
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -A'
+
+# cd
+alias cdd='cd ~/Desktop'
+alias cddw='cd ~/Downloads'
 
